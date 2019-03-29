@@ -29,7 +29,7 @@ public class Prueba {
 
         System.out.println(" ");
         Seccion sec = new Seccion();
-        not.setNombre("Futbol");
+        sec.setNombre("Futbol");
         Noticia noticia = new Noticia();
    
         
