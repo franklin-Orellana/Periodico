@@ -5,6 +5,7 @@ import java.util.Date;
 public class EstructuraPeriodico {
 
     private String ubicacion;
+    private String kaka;
     private String nombrePeriodico;
     private Date fecha;
 
