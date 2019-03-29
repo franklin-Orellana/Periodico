@@ -28,14 +28,17 @@ public class Prueba {
         System.out.println("----------------------");
 
         System.out.println(" ");
-        Seccion Deportes = new Seccion();
-        Deportes.setNombre("Futbol");
-        Deportes.setNoticia("Messi Balon De Oro 2019 ");
-
-        String sec = Deportes.getNombre();
-        System.out.println("Seccion: " + sec);
-        String not = Deportes.getNoticia();
-        System.out.println("Noticia: " + not);
+        Seccion sec = new Seccion();
+        not.setNombre("Futbol");
+        Noticia noticia = new Noticia();
+   
+        
+        String secNombre = sec.getNombre();
+        System.out.println("Seccion: " + secNombre);
+        Noticia[] noti = new Noticia[1]; 
+        noti[0] = noticia;
+        sec.setNoticia(noti);
+        System.out.println("Noticia: " + noti);
         System.out.println(" ");
 
         System.out.println("----------------------");
@@ -86,12 +89,12 @@ public class Prueba {
         System.out.println("----------------------");
 
         System.out.println(" ");
-        Noticia noticia = new Noticia();
-        noticia.setAutor("Autor: ");
-        noticia.setContenido("Contenido: ");
-        noticia.setFecha(new Date());
-        noticia.setTitulo("Titulo: ");
-        noticia.setMultimedia(video);
+        Noticia notici = new Noticia();
+        notici.setAutor("Autor: ");
+        notici.setContenido("Contenido: ");
+        notici.setFecha(new Date());
+        notici.setTitulo("Titulo: ");
+        notici.setMultimedia(video);
 
         String aut = noticia.getAutor();
         System.out.println("Franklin Orellana");
