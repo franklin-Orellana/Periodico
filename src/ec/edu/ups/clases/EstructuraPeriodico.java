@@ -7,6 +7,7 @@ public class EstructuraPeriodico {
     private String ubicacion;
     private String nombrePeriodico;
     private Date fecha;
+    private int numero;
 
     public void setUbicacion(String ubicacion) {
         this.ubicacion = ubicacion;
